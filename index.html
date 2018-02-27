@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <ul id="sortable"></ul>
+
+		<div id="inputs" title="Add new item" class="no-close">
+    	Item:<br>
+			<input id="name" type="text"><br>
+    
+			Description:<br>
+    	<textarea rows="7" cols="21" maxlength="300" id="description">
+			</textarea><br><br>
+    
+			<input type='file' id="fil"  accept="image/gif, image/jpg, image/jpeg, image/png"/>
+    	<img id="myImg" src="" alt=""/>
+    </div>
+    
+    <div id="edinputs" title="Edit Item" class="no-close">
+		</div>
+    
+    <div class="float">
+    	<i class="fa fa-plus my-float"></i>
+    </div>
+    <div class="count_block">List has <span id="counter"></span> items
+		</div>
+		
+</body>
+</html>
