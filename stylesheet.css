@@ -1,0 +1,88 @@
+/*
+/* 
+    Created on : Feb 24, 2018, 12:03:45 PM
+    Author     : HecMarrufo
+*/
+/*:focus, .focus {
+  background-color:red;
+}*/
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	/*background-color:#CCC;*/
+  background-color:rgb(0, 121, 191);
+}
+ul{
+  list-style-type: none;
+}
+ul:empty{
+  display: none;
+}
+.no-close{
+  display: none;
+}
+#sortable{
+  user-select: none;
+  background-color: rgb(198, 214, 223);
+  padding: 15px;
+  border-radius: 15px
+}
+.count_block{
+	position:fixed;
+	padding: .5em;
+	bottom:40px;
+  right: 110px;
+  width: 25%;
+	background-color:tomato;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+.my-float{
+	margin-top:22px;
+}
+.listed{
+	background-color: snow;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#inputs,#edinputs{
+  background-color: rgba(105, 105, 105, 0.3);
+  display: none;
+}
+img{
+  height: 60px;
+  float: right;
+  margin-top: -42px;
+}
+#del,#edit{
+  width: 30px;
+}
+
+#liName{
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#liDesc{
+  margin-left: 15px;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  display: inline-block;
+  width: 40em;
+  color: rgb(105, 105, 105);    
+}
