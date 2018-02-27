@@ -32,10 +32,10 @@ var addItem = function(){
 	var iName = $('#name').val();
 	var iDesc = $('#description').val();
 	$("#sortable").append('<li class="listed"><button id="edit"><i class="fa fa-edit"></i></button>'
-												+'<span id="liName">'+iName+'</span>'
-												+'<br><br><button id="del"><i class="fa fa-trash"></i></button>'
-												+'<span id="liDesc">'+iDesc+'</span>'
-												+'<img class="myImg" src=""></li>');
+		+'<span id="liName">'+iName+'</span>'
+		+'<br><br><button id="del"><i class="fa fa-trash"></i></button>'
+		+'<span id="liDesc">'+iDesc+'</span>'
+		+'<img class="myImg" src=""></li>');
 	updateCounter();
 	$("#inputs").hide();
 	$('#name,#description').val('');
@@ -67,12 +67,12 @@ $(document).on('click', '#edit', function() {  //edit item in li
 	//Build inputs form and clear afterwards:
 
 	$('#edinputs').append('Item:<br>'+
-												'<input id="named" type="text"><br>'+
-												'Description:<br>'+
-												'<textarea rows="7" cols="21" maxlength="300" id="descriptiond"></textarea><br><br>'+
-												'<img id="myImgd" src="" alt=""/>'+
-												'<input type="file" id="dfil" accept="image/gif, image/jpg, image/jpeg, image/png"/>'
-												);
+		'<input id="named" type="text"><br>'+
+		'Description:<br>'+
+		'<textarea rows="7" cols="21" maxlength="300" id="descriptiond"></textarea><br><br>'+
+		'<img id="myImgd" src="" alt=""/>'+
+		'<input type="file" id="dfil" accept="image/gif, image/jpg, image/jpeg, image/png"/>'
+		);
 
 $( "#edinputs" ).dialog({
 	dialogClass: "no-close",
